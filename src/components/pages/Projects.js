@@ -10,12 +10,15 @@ class Projects extends Component {
                 <ProjectComponent 
                 header="ParaSite" 
                 link="https://github.com/jaw0608/ParaSite" 
-                description="ParaSite is a turn, based social deception game that I along with two other engineers have paired up to develop."/>
+                description="ParaSite is a turn based post-apoclyptic themed social deception game. During my last semester of university, 
+                I along with two other engineers paired up and brainstormed this idea because we're super eager to learn about new technologies to help us better prepare for the working world.
+                Most importantly above everything else, we wanted to create a project that would actually be fun to develop to keep us motivated. We took inspiration from the popular online game Town of Salem along with Werewolf. After coming up with the concept,
+                taking a closer look revealed a ton of learning opportunities so we split up the work and began coding."/>
 
                 <ProjectComponent
                 header="Microscope Simulator"
                 link="https://github.com/TLTMedia/Microscope"
-                description="Simulator built to teach biology students how to use a microscope"/>
+                description="Simulator built to teach biology students how to use a microscope. During the year of working on this project, I took ownership of a project which was a microscope simulator used by the biology lab classes which consisted of about ~200 students per semester. I worked in an agile team, maintained its 20+ step tutorial, fixed 35+ bugs and also wrote a script that cut an image into cells and thus reduced SVG load times by 1 to 2 seconds."/>
                 <ProjectComponent
                     header="Mannys SC2 Bot"
                     link="https://github.com/ialmosara/MannysSC2Bot"

@@ -25,23 +25,25 @@ export const Home = (props) => {
                 <div className="callout cell medium-4 container">
                     <p className="h3 headerText text-center ">About me</p>
                     <p>
-                        My name is Immanuel Almosara, I’m a recent graduate from Stony Brook University studying computer science. I have experience working as a Front end web developer at Stony Brook, where I took ownership of a project which was a microscope simulator used by the biology lab classes which consisted of about ~200 students per semester. I worked in an agile team, maintained its 20+ step tutorial, fixed 35+ bugs and also wrote a script that cut an image into cells and thus reduced SVG load times by 1 to 2 seconds. 
-                        <br/>Lately in my free time, I’ve been very eager to learn more about newer technologies so I’ve been working on my own personal project ParaSite - which is a web app that simulates a turn-based social deception game. This project is still in the works but with the time I have spent working on it I managed to get an authentication system working, and I’ve also explored functional code through React Hooks. Most of my front end web development experience is either in React or jQuery but considering that Angular is similar in functionality it wouldn't be difficult for me to get up to speed with other frameworks like Angular or Vue.
+                        My name is Immanuel Almosara, I’m a recent graduate (as of Fall 2019) from Stony Brook University studying computer science. I'm currently 23 years old and I'm currently working as a Quantitative Developer intern at <a href='https://www.accrue.com/'>Accrue.com!</a>
+                        <br/><br/>Lately in my free time, I’ve been very eager to learn more about newer technologies so after connecting with Accrue.com, I've been working on a new project with my boss that 
+                        takes options from the stock market, analyzes its order flow and utilizes that in conjunction with an algorithm we use to generate signals and find good opportunities to buy and sell! This project is shipped out on the <a href='https://ninjatrader.com/LP/NT8_Future/Introducing-NinjaTrader-8'>Ninjatrader 8</a> trading platform (which primarily uses C#), I use Flask (Python) for the backend to do all the calculations and for data I use <a href='https://questdb.io/'>QuestDB</a>(A SQL-based database that is focused on time-series data)
  
                     </p>
                 </div>
                 <div className="callout cell medium-4 container">
                     <p className="h3 headerText text-center">My Career Goals?</p>
                     <p>
-                        Now that I've graduated from university - I'm looking to become a web developer (Open to front end/back end/full stack). Most of my experience works with web technologies (specifically React/NodeJS/jQuery).
+                        I've always had an interest in the stock market, and now that I've graduated from university and gotten some experience working closely in this field - I've developed an interest to work in Quantitiative Finance.
+                        I also have experience working as a web developer (Open to front end/back end/full stack). Most of my web experience works with React/NodeJS/jQuery.
                     </p>
 
                 </div>
                 <div className="callout cell medium-4 container">
                     <p className="h3 headerText text-center">My Hobbies?</p>
                     <p>
-                        My hobbies include: Breakdancing, streetwear, programming, video games, and
-                        fitness. My interest in dance sparked around the age of 13. I've explored
+                        My hobbies include: Breakdancing, Streetwear, Programming, Video Games,
+                        Fitness, and Basketball. My interest in dance sparked around the age of 13. I've explored
                         different types of dance including: popping, tutting, c-walking, and now
                         bboying. Growing up I've only really seen it as a small hobby I do on the side,
                         and only really started taking it seriously around August 2017. I've realized
@@ -64,8 +66,8 @@ export const Home = (props) => {
                     className="callout cell medium-4 container medium-offset-4 large-4 large-offset-4">
                     <p className="h3 headerText text-center">My skills</p>
                     <p>
-                        The programming languages that I use include: ReactJS, NodeJS, MongoDB, Express, Javascript, HTML, CSS,
-                        C, Python, Java, SQL, and Assembly MIPS.
+                        The programming languages that I specialize in include: Python, C#, ReactJS, NodeJS, MongoDB, Express, Javascript, HTML, CSS,
+                        C, Java, and Assembly MIPS.
                     </p>
                 </div>
             </div>
