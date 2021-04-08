@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
+import { Element } from 'react-scroll';
 
 class Projects extends Component {
     render() {
         return (
+        <Element name='Projects'>  
             <section id="projects" data-magellan-target="projects">
                 <p className="h1 text-center headerText">
                     Projects
@@ -37,6 +39,7 @@ class Projects extends Component {
                     description=" Re:Define is a Web app created at SBUHacks 2019 that takes a machine learning python script, taking in two images as arguments and extracts the style of one image and adds it to the content of another image. In our case we had the content image be the user taking a live photo of themselves, sent it to the backend to have it run through the script, and out would come the modified photo with the user's new photo in the style of a random famous artist. This was programmed using HTML, CSS, Javascript, and Python (Flask backend). "/>
 
             </section>
+        </Element>
         );
     }
 }
